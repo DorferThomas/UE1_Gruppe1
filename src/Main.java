@@ -4,7 +4,9 @@ public class Main {
         String vorname = "Thomas";
         byte alter = 24;
         String nachname = " Dorfer";
-        System.out.println("Hello " + vorname + nachname + "! Du bist " + alter + " Jahre alt.");
+        int jahrgang = 1994;
+        System.out.println("Hello " + vorname + nachname + "! Du bist " + alter + " Jahre alt was bedeutet Jahrgang "
+                + jahrgang + " ." );
 
     }
 }
